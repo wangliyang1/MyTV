@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:hint="请输入姓名"></EditText>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="请输入密码"
+        android:password="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/register_pwd"></EditText>
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="请输入邮箱"
+            android:layout_marginTop="10dp"
+            android:id="@+id/register_email"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送邮箱验证码"
+        android:id="@+id/register_send"
+        android:layout_gravity="center"></Button>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="请输入验证码"
+        android:layout_marginTop="10dp"
+        android:id="@+id/register_code"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_marginTop="100dp"
+        android:id="@+id/register_button"
+        android:layout_gravity="center"></Button>
+</LinearLayout>
